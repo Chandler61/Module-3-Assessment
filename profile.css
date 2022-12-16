@@ -1,0 +1,75 @@
+body {
+    background-color: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    display: block;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left: 0;
+}
+
+.crumb {
+    margin-right: 2em;
+    display: inline;
+}
+
+a {
+    color: crimson
+}
+
+nav {
+    border-bottom: 2px solid orange;
+}
+
+img {
+    max-width: 200px;
+}
+
+.content{
+    font-weight: 500;
+    color: black;
+
+}
+
+.header{
+    color: blue;
+}
+
+.flexy{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    margin: 0;
+}
+
+h4 {
+    padding: 16px;
+    margin: 0;
+}
+
+.yella{
+    background-color: yellow;
+    border: solid 2px;
+    width: 300px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+input {
+    margin: 10px;
+    padding: 0;
+}
